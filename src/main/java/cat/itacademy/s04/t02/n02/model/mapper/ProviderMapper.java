@@ -1,7 +1,7 @@
-package cat.itacademy.s04.t02.n02.provider.model.mapper;
+package cat.itacademy.s04.t02.n02.model.mapper;
 
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderResponse;
-import cat.itacademy.s04.t02.n02.provider.model.entity.Provider;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderResponse;
+import cat.itacademy.s04.t02.n02.model.entity.Provider;
 
 import java.util.List;
 
