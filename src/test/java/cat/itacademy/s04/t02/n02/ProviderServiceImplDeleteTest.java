@@ -1,11 +1,11 @@
-package cat.itacademy.s04.t02.n02.provider;
+package cat.itacademy.s04.t02.n02;
 
 
-import cat.itacademy.s04.t02.n02.provider.exception.ConflictException;
-import cat.itacademy.s04.t02.n02.provider.exception.ResourceNotFoundException;
-import cat.itacademy.s04.t02.n02.provider.repositories.FruitRepository;
-import cat.itacademy.s04.t02.n02.provider.repositories.ProviderRepository;
-import cat.itacademy.s04.t02.n02.provider.services.provider.ProviderServiceImpl;
+import cat.itacademy.s04.t02.n02.exception.ConflictException;
+import cat.itacademy.s04.t02.n02.exception.ResourceNotFoundException;
+import cat.itacademy.s04.t02.n02.repositories.FruitRepository;
+import cat.itacademy.s04.t02.n02.repositories.ProviderRepository;
+import cat.itacademy.s04.t02.n02.services.provider.ProviderServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
