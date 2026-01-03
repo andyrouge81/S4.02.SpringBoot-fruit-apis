@@ -1,9 +1,9 @@
-package cat.itacademy.s04.t02.n02.provider.controllers;
+package cat.itacademy.s04.t02.n02.controllers;
 
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderCreateRequest;
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderResponse;
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderUpdateRequest;
-import cat.itacademy.s04.t02.n02.provider.services.provider.ProviderService;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderCreateRequest;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderResponse;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderUpdateRequest;
+import cat.itacademy.s04.t02.n02.services.provider.ProviderService;
 
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
