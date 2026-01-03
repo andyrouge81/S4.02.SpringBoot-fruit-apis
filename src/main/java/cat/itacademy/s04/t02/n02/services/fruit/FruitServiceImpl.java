@@ -1,15 +1,15 @@
-package cat.itacademy.s04.t02.n02.provider.services.fruit;
+package cat.itacademy.s04.t02.n02.services.fruit;
 
-import cat.itacademy.s04.t02.n02.provider.exception.FruitNotFoundException;
-import cat.itacademy.s04.t02.n02.provider.exception.ResourceNotFoundException;
-import cat.itacademy.s04.t02.n02.provider.model.dto.fruit.FruitCreateRequest;
-import cat.itacademy.s04.t02.n02.provider.model.dto.fruit.FruitResponse;
-import cat.itacademy.s04.t02.n02.provider.model.dto.fruit.FruitUpdateRequest;
-import cat.itacademy.s04.t02.n02.provider.model.entity.Fruit;
-import cat.itacademy.s04.t02.n02.provider.model.entity.Provider;
-import cat.itacademy.s04.t02.n02.provider.model.mapper.FruitMapper;
-import cat.itacademy.s04.t02.n02.provider.repositories.FruitRepository;
-import cat.itacademy.s04.t02.n02.provider.repositories.ProviderRepository;
+import cat.itacademy.s04.t02.n02.exception.FruitNotFoundException;
+import cat.itacademy.s04.t02.n02.exception.ResourceNotFoundException;
+import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitCreateRequest;
+import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitResponse;
+import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitUpdateRequest;
+import cat.itacademy.s04.t02.n02.model.entity.Fruit;
+import cat.itacademy.s04.t02.n02.model.entity.Provider;
+import cat.itacademy.s04.t02.n02.model.mapper.FruitMapper;
+import cat.itacademy.s04.t02.n02.repositories.FruitRepository;
+import cat.itacademy.s04.t02.n02.repositories.ProviderRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
