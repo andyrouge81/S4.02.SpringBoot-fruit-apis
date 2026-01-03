@@ -1,15 +1,14 @@
-package cat.itacademy.s04.t02.n02.provider.controllers;
+package cat.itacademy.s04.t02.n02.controllers;
 
-import cat.itacademy.s04.t02.n02.provider.model.dto.fruit.FruitCreateRequest;
-import cat.itacademy.s04.t02.n02.provider.model.dto.fruit.FruitResponse;
-import cat.itacademy.s04.t02.n02.provider.model.dto.fruit.FruitUpdateRequest;
-import cat.itacademy.s04.t02.n02.provider.services.fruit.FruitService;
+import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitCreateRequest;
+import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitResponse;
+import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitUpdateRequest;
+import cat.itacademy.s04.t02.n02.services.fruit.FruitService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.net.URI;
 import java.util.List;
 
 @RestController
@@ -33,25 +32,6 @@ public class FruitController {
     @GetMapping
     public List<FruitResponse> findByProvider(@RequestParam Long providerId){
         return service.findByProviderId(providerId);
-    }
-
-    @GetMapping("/{id}")
-    public ResponseEntity<FruitResponse> findById(@PathVariable Long id){
-        return ResponseEntity.ok(service.findById(id));
-    }
-
-    @PutMapping("/{id}")
-    public ResponseEntity<FruitResponse> updateFruit(@PathVariable Long id,
-                                                     @Valid @RequestBody FruitUpdateRequest request){
-        return ResponseEntity.ok(service.update(id, request));
-    }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> delete(@PathVariable Long id){
-        service.deleteById(id);
-
-        return ResponseEntity.noContent().build();
-
     }
 
 
