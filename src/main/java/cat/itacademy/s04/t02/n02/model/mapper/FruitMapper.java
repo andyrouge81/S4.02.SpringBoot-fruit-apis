@@ -1,8 +1,7 @@
-package cat.itacademy.s04.t02.n02.provider.model.mapper;
+package cat.itacademy.s04.t02.n02.model.mapper;
 
-import cat.itacademy.s04.t02.n02.provider.model.dto.fruit.FruitCreateRequest;
-import cat.itacademy.s04.t02.n02.provider.model.dto.fruit.FruitResponse;
-import cat.itacademy.s04.t02.n02.provider.model.entity.Fruit;
+import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitResponse;
+import cat.itacademy.s04.t02.n02.model.entity.Fruit;
 
 import java.util.List;
 
