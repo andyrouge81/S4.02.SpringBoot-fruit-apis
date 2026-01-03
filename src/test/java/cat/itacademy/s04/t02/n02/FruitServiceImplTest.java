@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t02;
+package cat.itacademy.s04.t02.n02;
 
 import cat.itacademy.s04.t02.n02.exception.ResourceNotFoundException;
 import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitCreateRequest;
