@@ -1,12 +1,12 @@
-package cat.itacademy.s04.t02.n02.provider;
+package cat.itacademy.s04.t02.n02;
 
-import cat.itacademy.s04.t02.n02.provider.controllers.ProviderController;
-import cat.itacademy.s04.t02.n02.provider.exception.ConflictException;
-import cat.itacademy.s04.t02.n02.provider.exception.DuplicateRequestException;
-import cat.itacademy.s04.t02.n02.provider.exception.GlobalExceptionHandler;
-import cat.itacademy.s04.t02.n02.provider.exception.ResourceNotFoundException;
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderResponse;
-import cat.itacademy.s04.t02.n02.provider.services.provider.ProviderService;
+import cat.itacademy.s04.t02.n02.controllers.ProviderController;
+import cat.itacademy.s04.t02.n02.exception.ConflictException;
+import cat.itacademy.s04.t02.n02.exception.DuplicateRequestException;
+import cat.itacademy.s04.t02.n02.exception.GlobalExceptionHandler;
+import cat.itacademy.s04.t02.n02.exception.ResourceNotFoundException;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderResponse;
+import cat.itacademy.s04.t02.n02.services.provider.ProviderService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
