@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t02.n02.provider.model.dto.provider;
+package cat.itacademy.s04.t02.n02.model.dto.provider;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
