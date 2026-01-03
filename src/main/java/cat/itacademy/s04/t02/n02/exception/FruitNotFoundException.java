@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t02.n02.provider.exception;
+package cat.itacademy.s04.t02.n02.exception;
 
 public class FruitNotFoundException extends RuntimeException {
     public FruitNotFoundException(Long id) {
