@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t02.n02.provider.model.entity;
+package cat.itacademy.s04.t02.n02.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
