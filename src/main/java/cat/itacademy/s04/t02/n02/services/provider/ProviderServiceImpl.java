@@ -1,16 +1,16 @@
-package cat.itacademy.s04.t02.n02.provider.services.provider;
+package cat.itacademy.s04.t02.n02.services.provider;
 
 
-import cat.itacademy.s04.t02.n02.provider.exception.ConflictException;
-import cat.itacademy.s04.t02.n02.provider.exception.DuplicateRequestException;
-import cat.itacademy.s04.t02.n02.provider.exception.ResourceNotFoundException;
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderCreateRequest;
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderResponse;
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderUpdateRequest;
-import cat.itacademy.s04.t02.n02.provider.model.entity.Provider;
-import cat.itacademy.s04.t02.n02.provider.model.mapper.ProviderMapper;
-import cat.itacademy.s04.t02.n02.provider.repositories.FruitRepository;
-import cat.itacademy.s04.t02.n02.provider.repositories.ProviderRepository;
+import cat.itacademy.s04.t02.n02.exception.ConflictException;
+import cat.itacademy.s04.t02.n02.exception.DuplicateRequestException;
+import cat.itacademy.s04.t02.n02.exception.ResourceNotFoundException;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderCreateRequest;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderResponse;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderUpdateRequest;
+import cat.itacademy.s04.t02.n02.model.entity.Provider;
+import cat.itacademy.s04.t02.n02.model.mapper.ProviderMapper;
+import cat.itacademy.s04.t02.n02.repositories.FruitRepository;
+import cat.itacademy.s04.t02.n02.repositories.ProviderRepository;
 
 import org.springframework.stereotype.Service;
 
