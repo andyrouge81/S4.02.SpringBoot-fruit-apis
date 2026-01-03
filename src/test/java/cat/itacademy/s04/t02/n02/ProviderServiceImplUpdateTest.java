@@ -1,12 +1,12 @@
-package cat.itacademy.s04.t02.n02.provider;
+package cat.itacademy.s04.t02.n02;
 
-import cat.itacademy.s04.t02.n02.provider.exception.DuplicateRequestException;
-import cat.itacademy.s04.t02.n02.provider.exception.ResourceNotFoundException;
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderResponse;
-import cat.itacademy.s04.t02.n02.provider.model.dto.provider.ProviderUpdateRequest;
-import cat.itacademy.s04.t02.n02.provider.model.entity.Provider;
-import cat.itacademy.s04.t02.n02.provider.repositories.ProviderRepository;
-import cat.itacademy.s04.t02.n02.provider.services.provider.ProviderServiceImpl;
+import cat.itacademy.s04.t02.n02.exception.DuplicateRequestException;
+import cat.itacademy.s04.t02.n02.exception.ResourceNotFoundException;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderResponse;
+import cat.itacademy.s04.t02.n02.model.dto.provider.ProviderUpdateRequest;
+import cat.itacademy.s04.t02.n02.model.entity.Provider;
+import cat.itacademy.s04.t02.n02.repositories.ProviderRepository;
+import cat.itacademy.s04.t02.n02.services.provider.ProviderServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
