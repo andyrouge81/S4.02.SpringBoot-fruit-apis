@@ -1,6 +1,5 @@
-package cat.itacademy.s04.t02.n02.provider.model.dto.fruit;
+package cat.itacademy.s04.t02.n02.model.dto.fruit;
 
-import cat.itacademy.s04.t02.n02.provider.model.entity.Provider;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
