@@ -15,8 +15,8 @@ public class FruitCreateRequest {
     @NotBlank(message = "Name must not be blank")
     private String name;
 
-    @NotNull(message = "Weight must not be null ")
-    @Positive(message = "Weight must no be negative")
+    @NotNull(message = "Weight must not be null")
+    @Positive(message = "Weight must be positive")
     private Integer weightInKilos;
 
 

@@ -13,5 +13,4 @@ public interface FruitService {
     FruitResponse findById(Long id);
     FruitResponse update(Long id, FruitUpdateRequest request);
     void deleteById(Long id);
-
 }
