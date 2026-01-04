@@ -109,5 +109,28 @@ public class FruitServiceImplTest {
         verify(fruitRepo, never()).findByProviderId(any());
     }
 
+    @Test
+    void findAllFruits_returnAllFruits(){
+
+        Provider provider1 = new Provider("Fruits&Co","Spain");
+        provider1.setId(1L);
+
+        Provider provider2 = new Provider("Tropical Fruits", "Brazil");
+        provider2.setId(2L);
+
+        when(fruitRepo.findAll()).thenReturn(List.of(
+                new Fruit("Apple", 5 , provider1),
+                new Fruit("Mango", 6, provider2)
+        ));
+
+        List<FruitResponse> result = service.findAll();
+
+        assertEquals(2, result.size());
+        assertEquals("Apple", result.get(0).name());
+        assertEquals(1L, result.get(0).providerId());
+        assertEquals("Mango", result.get(1).name());
+        assertEquals(2L, result.get(1).providerId());
+    }
+
 
 }

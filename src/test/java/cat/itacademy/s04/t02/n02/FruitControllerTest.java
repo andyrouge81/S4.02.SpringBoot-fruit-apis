@@ -83,7 +83,7 @@ public class FruitControllerTest {
     //GET
 
     @Test
-    void findFruitsByProvider_whenProviderExists_returnHTTP200RequestAndList() throws Exception {
+    void findFruitsByProvider_whenProviderExists_returnHTTP200AndList() throws Exception {
 
         when(fruitService.findByProviderId(1L)).thenReturn(List.of(
                 new FruitResponse(1L,"Apple",5 ,1L),
@@ -112,6 +112,22 @@ public class FruitControllerTest {
                 .param("providerId", "99"))
                 .andExpect(status().isNotFound());
 
+
+    }
+
+    @Test
+    void findAllFruits_whenNoProviderId_returnHTTp200AndList() throws Exception{
+
+        when(fruitService.findAll()).thenReturn(List.of(
+                new FruitResponse(1L, "Apple",4, 1L),
+                new FruitResponse(2L, "Orange",6,2L)
+        ));
+
+        mockMvc.perform(get("/fruits"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(2))
+                .andExpect(jsonPath("$[0].name").value("Apple"))
+                .andExpect(jsonPath("$[1].name").value("Orange"));
 
     }
 
