@@ -6,7 +6,6 @@ import cat.itacademy.s04.t02.n02.model.dto.fruit.FruitUpdateRequest;
 import cat.itacademy.s04.t02.n02.services.fruit.FruitService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -30,8 +29,32 @@ public class FruitController {
     }
 
     @GetMapping
-    public List<FruitResponse> findByProvider(@RequestParam Long providerId){
-        return service.findByProviderId(providerId);
+    public List<FruitResponse> findAll(@RequestParam(required = false) Long providerId){
+
+        if(providerId != null){
+            return service.findByProviderId(providerId);
+        }
+
+        return service.findAll();
+    }
+
+
+    @GetMapping("/{id}")
+    public FruitResponse findById(@PathVariable Long Id){
+        return service.findById(Id);
+    }
+
+    @PutMapping("/{id}")
+    public FruitResponse update(@PathVariable Long id,
+                                @Valid @RequestBody FruitUpdateRequest request){
+
+        return service.update(id, request);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void delete(@PathVariable Long id){
+        service.deleteById(id);
     }
 
 
