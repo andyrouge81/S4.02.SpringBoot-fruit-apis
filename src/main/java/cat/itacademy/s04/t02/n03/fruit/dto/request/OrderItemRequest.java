@@ -8,11 +8,12 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class OrderItemRequestDto {
-    @NotBlank
+
+public class OrderItemRequest {
+    @NotBlank(message = "Fruit name must not be blank")
     private String fruitName;
 
-    @NotNull
-    @Positive
+    @NotNull(message = "Quantity must not be null")
+    @Positive(message = "Quantity must not be negative")
     private Integer quantityInKilos;
 }

@@ -3,11 +3,11 @@ package cat.itacademy.s04.t02.n03.fruit.dto.response;
 import java.time.LocalDate;
 import java.util.List;
 
-public record OrderResponseDto (
+public record OrderResponse(
 
         String id,
         String clientName,
         LocalDate deliveryDate,
-        List<OrderItemResponseDto> items
+        List<OrderItemResponse> items
 ){}
 

@@ -16,7 +16,7 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
-public class OrderRequest {
+public class OrderCreateRequest {
 
     @NotBlank
     private String clientName;
@@ -26,7 +26,7 @@ public class OrderRequest {
 
     @NotEmpty
     @Valid
-    private List<OrderItem> items;
+    private List<OrderItemRequest> items;
 
 
 }
