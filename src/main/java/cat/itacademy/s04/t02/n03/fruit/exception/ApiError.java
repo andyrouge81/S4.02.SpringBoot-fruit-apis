@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t02.n02.exception;
+package cat.itacademy.s04.t02.n03.fruit.exception;
 
 
 import java.time.LocalDateTime;
