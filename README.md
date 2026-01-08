@@ -164,15 +164,4 @@ If you wish to contribute:
 - Add tests for any new functionality
 - Keep consistency with existing conventions
 
----
 
-## 📌 Project Status
-
-✔ Level 1 – Completed  
-✔ Level 2 – Completed  
-✔ Level 3 – In progress / Completed depending on branch
-
----
-
-Author: Andy  
-Training program: ItAcademy – Spring Boot Backend
