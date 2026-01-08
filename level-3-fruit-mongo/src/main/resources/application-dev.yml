@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/fruit_orders
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: fruit-order-api
+
+server:
+  port: 8080
