@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t02.n01.fruitapih2.model.dto;
+package cat.itacademy.s04.t02.n01.fruit.model.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

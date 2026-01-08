@@ -12,7 +12,7 @@
     <artifactId>fruit-api-h2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>fruit-api-h2</name>
-    <description>fruit-api-h2</description>
+    <description>REST API for managing fruit stock with H2</description>
     <url/>
     <licenses>
         <license/>

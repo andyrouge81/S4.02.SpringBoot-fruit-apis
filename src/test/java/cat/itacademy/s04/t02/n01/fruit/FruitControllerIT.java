@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t02.n01.fruitapih2;
+package cat.itacademy.s04.t02.n01.fruit;
 
 import com.jayway.jsonpath.JsonPath;
 import org.junit.jupiter.api.Test;

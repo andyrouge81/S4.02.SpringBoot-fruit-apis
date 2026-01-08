@@ -1,8 +1,8 @@
-package cat.itacademy.s04.t02.n01.fruitapih2.model.mapper;
+package cat.itacademy.s04.t02.n01.fruit.model.mapper;
 
-import cat.itacademy.s04.t02.n01.fruitapih2.model.dto.FruitCreateRequest;
-import cat.itacademy.s04.t02.n01.fruitapih2.model.dto.FruitResponse;
-import cat.itacademy.s04.t02.n01.fruitapih2.model.entity.Fruit;
+import cat.itacademy.s04.t02.n01.fruit.model.dto.FruitCreateRequest;
+import cat.itacademy.s04.t02.n01.fruit.model.dto.FruitResponse;
+import cat.itacademy.s04.t02.n01.fruit.model.entity.Fruit;
 
 public class FruitMapper {
 

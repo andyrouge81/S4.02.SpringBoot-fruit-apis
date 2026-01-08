@@ -1,12 +1,12 @@
-package cat.itacademy.s04.t02.n01.fruitapih2.services;
+package cat.itacademy.s04.t02.n01.fruit.services;
 
-import cat.itacademy.s04.t02.n01.fruitapih2.exception.FruitNotFoundException;
-import cat.itacademy.s04.t02.n01.fruitapih2.model.dto.FruitCreateRequest;
-import cat.itacademy.s04.t02.n01.fruitapih2.model.dto.FruitResponse;
-import cat.itacademy.s04.t02.n01.fruitapih2.model.dto.FruitUpdateRequest;
-import cat.itacademy.s04.t02.n01.fruitapih2.model.entity.Fruit;
-import cat.itacademy.s04.t02.n01.fruitapih2.model.mapper.FruitMapper;
-import cat.itacademy.s04.t02.n01.fruitapih2.repositories.FruitRepository;
+import cat.itacademy.s04.t02.n01.fruit.exception.FruitNotFoundException;
+import cat.itacademy.s04.t02.n01.fruit.model.dto.FruitCreateRequest;
+import cat.itacademy.s04.t02.n01.fruit.model.dto.FruitResponse;
+import cat.itacademy.s04.t02.n01.fruit.model.dto.FruitUpdateRequest;
+import cat.itacademy.s04.t02.n01.fruit.model.entity.Fruit;
+import cat.itacademy.s04.t02.n01.fruit.model.mapper.FruitMapper;
+import cat.itacademy.s04.t02.n01.fruit.repositories.FruitRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
