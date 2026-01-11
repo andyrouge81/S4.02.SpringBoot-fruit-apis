@@ -41,7 +41,7 @@ public class FruitController {
 
     @GetMapping("/{id}")
     public FruitResponse findById(@PathVariable Long id){
-        return service.findById(Id);
+        return service.findById(id);
     }
 
     @PutMapping("/{id}")
